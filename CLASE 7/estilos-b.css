@@ -1,0 +1,44 @@
+header{
+	position: relative;
+	border: solid #000 2px;
+}
+
+h1{
+	width: 500px;
+	margin: 0 auto;
+	border: solid #000 0.3em;
+	box-sizing: border-box;
+}
+
+.container{
+	position: relative;
+	border:solid #000 2px;
+}
+
+nav{
+	position: absolute;
+	left: 0px;
+	width: 200px;
+	border:solid #000 2px;
+}
+
+section{
+	/*position static por defecto*/
+	margin-left: 200px;
+	border:solid #000 2px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 70px;
+	background-color: rgba(255,187,67,0.5);
+	width: 100%;
+	border:solid #000 2px;
+}
+
+body{
+	margin-bottom: 120px;s
+	border:solid #000 2px;
+}

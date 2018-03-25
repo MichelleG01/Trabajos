@@ -1,0 +1,85 @@
+/*
+body{
+	/*rgba --> red, green, blue, alpha(Nivel de capacidad)*/
+	/*color: rgba(0,0,0,0.5);*/
+/*
+	background-color: rgba(0,0,0,0.5);
+	background-image: url("tecnologia-presencial.jpg");
+	background-repeat: no-repeat;
+}
+
+p{
+	background-color: rgb(58,34,0);
+
+	/*Separacion*/
+	/*padding-left: 50px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	padding-top: 10px;*/
+
+	/*Margen*/
+	/*margin-left: 50px;
+	margin-right: 40px;
+	margin-bottom: 50px;
+	margin-top: 80px;*/
+
+	/*Borde (los pixeles deben ser pequeños para que se puedan ver)*/
+	/*border-style: dotted;
+	border-left-width: 5px;
+	border-right-width: 1px;
+	border-bottom-width: 4px;
+	border-top-width: 3px;*/
+
+/*
+	color: rgb(255,255,255);
+
+}
+
+*/
+
+/*Selector universal*/
+/* 
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+
+/*Selector de tipo o etiqueta*/
+/* 
+p{
+	background-color: rgb(255,255,255);
+}
+
+h1, h2, h3 {
+	color:#8A8E27;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+/*Selector descendente*/
+/*
+p span{color: red; }
+h1 span{color: blue}
+
+/*Selector de clase*/
+.miclase{
+	padding: 0.5em;
+	border: 1px solid #f6feda;
+	background: #f6feda;
+}
+
+.error{
+	color: 930;
+	font-weight: bold;
+}
+
+
+#unico{
+	margin-top: 10px;
+	padding: 1.9em;
+	border: 3px solid #58ba10;
+	background:#ffaeda;
+
+}

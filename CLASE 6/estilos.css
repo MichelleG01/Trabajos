@@ -1,0 +1,23 @@
+h1,span{
+	border: 1px solid #000000; 
+}
+
+div.defecto{
+	border: 1px solid #000000; 
+}
+
+#none{
+	display: none;
+}
+
+#hideen{
+	visibility: hidden;
+}
+
+#main{
+	/*con el max defino hasta cuando puede abrir la pantalla*/
+	/*se evita que se deformen las cosas de la pagina en otro ordenador*/
+	max-width: 600px; 
+	min-width: 300px;
+	margin: 0 auto;
+}

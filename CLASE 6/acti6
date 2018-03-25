@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Estructuras</title>
+	<meta charset="utf-8"> <!--?????-->
+	<!--Enlasar estilos-->
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<div>
+		<h1>Estructuras</h1>
+	</div>
+</body>
+</html>

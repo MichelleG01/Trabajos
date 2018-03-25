@@ -1,0 +1,56 @@
+
+h1{
+	border: 1px solid #000000; 
+}
+
+.simple{
+	border: 1px solid #000000; 
+
+	/*static es no posicionado*/
+	/*position: static; como lo entienda el navegador, si va una etiqueta asume que va debajo*/
+
+	position: relative;
+	width: 500px;
+
+	/*width: 500px;
+	margin: 20px auto;*/
+
+}
+
+.elegante{
+	border: 1px solid #000000; 
+
+	position: relative;
+	top: -20px; /*relativo segun esta posicion, sino lo toma como static*/
+	left: 20px;
+	width: 500px;
+	color: blue;
+	
+
+	/*width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;*/
+}
+
+.absolute{
+	/*esta no tiene la en cuenta la ventana anterior, se posiciona segun el body*/
+	position: absolute;
+	top: 120px;
+	right: 0;
+	width: 300px;
+	height: 200px;
+	background-color: rgba(255,187,67,0.5);
+}
+
+.fixed{
+	/*posicionamiento relativo en el navegador, se queda anclado*/
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	background-color:tomato;
+}
