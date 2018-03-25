@@ -1,0 +1,83 @@
+*¨{
+	margin: 0; /*quitar margenes*/
+	padding: 0; /*quitar relleno*/
+	box-sizing: border-box;;
+}
+
+/* wrap es el contenedor*/
+.wrap{
+	width: 1100px; /*ancho*/
+	margin: 50px auto; /*con el auto lo que esta contenido se centra*/
+	
+	display: flex; /*para poner uno al lado del otro*/
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+
+	justify-content: center;
+}
+
+.Presentacion-wrap{
+	margin: 20px; /*para tener una separacion entre los cajones*/
+	-webkit-perspective: 700; /*para que tenga una mejor fluides en cambiar la imagen*/
+	perspective: 700;
+
+}
+
+.presentacion{
+	width: 600px;
+	height: 750px;
+	background: #F29720;
+	position: relative;
+	transform-style: preserve-3d; /*fusionar la parte de atras que si sea tras*/
+	transition: .5s ease; /*tiempo para que rote la caja*/
+
+	/*sombras*/
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	-moz-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.Adelante, .Atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	/* el webkit es porque a veces genera problema*/
+	-webkit-backface-visibility: hidden; /*si un elemento rota el otro no se muestra*/
+	backface-visibility: hidden;
+
+}
+
+.Adelante{
+	width: 100%; /*ancho*/
+}
+
+.Atras{
+	transform: rotateY(180deg); /*rotar 180 grados la caja*/
+
+	/*para que el texto sea todo centrado*/
+	padding: 15px; /*relleno*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	color: #fff; /*color blanco*/
+
+}
+
+
+/*para cuando pase el maus en la caja*/
+.Presentacion-wrap:hover .presentacion{
+	transform: rotateY(180deg);
+
+}
+
+.imag1{
+	background-image: url("blog_africa-400x415.png");
+	background-size: cover; /*contenga el 100% de la imagen*/
+}
