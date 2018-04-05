@@ -1,10 +1,79 @@
 canvas {
 	display: block;
-	border: solid;
+	border: solid; /*quitar despues*/
 	margin: 0 auto;
-	background: #fff;
+	background: #F5F5DC;
 }
 
 #hechoPorJugador {
 	font-size:150%;
+	font-weight: bold;
+
+	padding: 0.5em;
+	border: 3px solid #58ba10;
+	background: #f6feda;
+
+	position: relative;
+	width: 800px;
+
+	/*Separacion*/
+	/*padding-left: 50px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	padding-top: 10px;*/
+
+	/*Margen*/
+	/*margin-left: 50px;
+	margin-right: 40px;
+	margin-bottom: 50px;
+	margin-top: 80px;*/
+}
+
+#lienzo{
+	margin: 0 auto;
+
+	right: 0;
+	width: 500px;
+	height: 625px;
+}
+
+h1{
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 500px;
+	font-family: miFuente;
+}
+
+@font-face{
+	font-family: 'miFuente';
+	src: url('SimsLLHP.ttf');
+}
+
+body{
+	font-family: 'calibri';
+	background-color:#F5F5DC;
+}
+
+#boton{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #E2FBB3;
+    border-radius: 15px;
+    border: 3px double #006505;
+
+	/*con el max defino hasta cuando puede abrir la pantalla*/
+	/*se evita que se deformen las cosas de la pagina en otro ordenador*/
+    max-width: 600px; 
+	min-width: 300px;
+ }
+
+ #boton:hover{
+    background: rgba(0,0,0,0);
+ 	color: #006505;
+ 	box-shadow: inset 0 0 0 3px #006505;
 }
