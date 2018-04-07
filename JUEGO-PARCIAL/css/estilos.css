@@ -1,6 +1,5 @@
 canvas {
 	display: block;
-	border: solid; /*quitar despues*/
 	margin: 0 auto;
 	background: #F5F5DC;
 }
@@ -9,32 +8,29 @@ canvas {
 	font-size:150%;
 	font-weight: bold;
 
-	padding: 0.5em;
+	/*padding: 0.5em;*/
 	border: 3px solid #58ba10;
 	background: #f6feda;
 
-	position: relative;
-	width: 800px;
-
-	/*Separacion*/
-	/*padding-left: 50px;
-	padding-right: 30px;
-	padding-bottom: 5px;
-	padding-top: 10px;*/
-
-	/*Margen*/
-	/*margin-left: 50px;
-	margin-right: 40px;
-	margin-bottom: 50px;
-	margin-top: 80px;*/
+	right: 0;
+	width: 40%;
+	height: 50%;
+	margin: 20px auto;
 }
 
 #lienzo{
-	margin: 0 auto;
-
 	right: 0;
-	width: 500px;
+	width: 40%;
 	height: 625px;
+}
+
+.entre{
+	display: flex; /*para poner uno al lado del otro*/
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	margin: 10px;
+	justify-content: center;
 }
 
 h1{
@@ -68,8 +64,8 @@ body{
 
 	/*con el max defino hasta cuando puede abrir la pantalla*/
 	/*se evita que se deformen las cosas de la pagina en otro ordenador*/
-    max-width: 600px; 
-	min-width: 300px;
+    max-width: 300px; 
+	min-width: 200px;
  }
 
  #boton:hover{
@@ -77,3 +73,4 @@ body{
  	color: #006505;
  	box-shadow: inset 0 0 0 3px #006505;
 }
+

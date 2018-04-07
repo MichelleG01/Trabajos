@@ -179,7 +179,7 @@ document.addEventListener("keydown", function(event){ /*funcion anonima, no requ
 	if (img == 0 && presiono == 1 && gano == 0) { 
 		/*si se termina las imagenes y no gano antes, significa que perdio*/
 		perdio = 1;
-		alert("perdio")
+		setTimeout(function(){ alert("Perdiste"); }, 50);
 	}
 
     var entro = 1;
@@ -200,7 +200,7 @@ document.addEventListener("keydown", function(event){ /*funcion anonima, no requ
 	}
 
 	if (entro == 1 && presiono == 1 && perdio == 0) { /*frase completada*/
-		alert("ganado")
+		setTimeout(function(){ alert("Felicitaciones, ¡GANO!"); }, 50);
 		gano = 1;
 	}
 
