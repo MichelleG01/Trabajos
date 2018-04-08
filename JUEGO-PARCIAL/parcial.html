@@ -16,9 +16,12 @@
 		<li>MODO 1: Esta diseñado para dos jugadores o más, donde uno de los jugadores ingresa una frase esta puede contener los números del 0-9, letras de la a-z al igual que comas (,) y  puntos (.); otro parametro fuera de estos no sera valido. Para dar inicio al juego presiona el boton MODO1 y despues de ingresar los datos el otro jugador solo debe presionar una letra o número en su teclado para acertar esta. </li>
 		<li>MODO 2: Esta diseñada para un solo jugador, para dar inicio al juego presiona el boton MODO2 y despues solo debes presionar una letra en el teclado para acertar que frase o palabra es</li> <br>
 
-	<button onclick="jugar()" id="boton">MODO 1</button>
-	<button onclick="jugar1()" id="boton">MODO 2</button>
-	<button onclick="limpiar()" id="boton">BORRAR PARTIDA</button> <br>
+	<div id="contenedor">
+		<button onclick="jugar()" id="boton">MODO 1</button>
+		<button onclick="jugar1()" id="boton">MODO 2</button>
+		<button onclick="limpiar()" id="boton">BORRAR PARTIDA</button> <br>
+		
+	</div>
 
 	<div class="entre">
 		<canvas id="lienzo"></canvas>
