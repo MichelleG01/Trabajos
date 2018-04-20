@@ -1,0 +1,112 @@
+body {/*Cuerpo en general, aquí se define el fondo negro y la letra blanca*/
+	color: white;
+	font-family: 'calibri';
+	background-color:#424242;
+	text-align: center;
+}
+
+@font-face{
+	font-family: 'miFuente';
+	src: url('hollh.ttf');
+}
+
+h1{
+	box-sizing: border-box;
+	font-size: 70px;
+	margin: 0 auto;
+	width: 100%;
+	font-family: miFuente;
+	text-align: center;
+}
+
+p{
+	color: white;
+	font-size: 20px;
+	font-family: 'calibri';
+	text-align: justify;
+}
+
+#Boton{/*Éstilos del texto donde se ingresa el caracter y el botón "enviar"*/
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #E2FBB3;
+    border-radius: 15px;
+    border: 3px double #006505;
+
+  	width: 100px;
+	height: 35px;
+	margin: 0px auto;
+}
+
+ #Boton:hover{
+    background: #E2FBB3;
+ 	color: #006505;
+ 	box-shadow: inset 0 0 0 3px #23ba88;
+}
+
+#informacion{
+	font-family: 'calibri';
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 23px;
+
+}
+
+#hola{
+	padding-bottom: 20px;
+}
+
+img{
+	width: 240px;
+	height: 340px;
+	padding-top: 40px;
+
+}
+
+#cosas{
+	background-color: rgb(255,200,0);
+	padding-left:50px;
+	padding-right:30px;
+	padding-bottom:5px;
+	padding-top:10px;
+
+	/*Distancia del borde con la página*/
+	color: rgb(0,0,0);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 350px;
+	margin-left: 350px;
+
+	/*Tamaño del borde*/
+	border-style: outset;
+	border-left-width: 7px;
+	border-right-width: 7px;
+	border-top-width: 7px;
+	border-bottom-width: 7px;
+
+	/*Distancia del texto al borde*/
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+	/* Bordeado de las cajas */
+	border-radius: 16px 16px 16px 16px;
+	-moz-border-radius: 16px 16px 16px 16px;
+	-webkit-border-radius: 16px 16px 16px 16px;
+	border: 4px solid #000000;
+
+	/* Sombra de la caja  */
+	box-shadow: 4px 4px 5px #23ba88;
+
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX | 101</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script type="text/javascript" src="js/codigo.js"></script>
+
+</head>
+<body>
+	<script
+		  src="https://code.jquery.com/jquery-3.3.1.min.js"
+		  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		  crossorigin="anonymous">
+ 	</script>
+
+	<h1>PELICULAS Y SERIES</h1><br>
+	<p>Bienvenido, en este portal podras buscar peliculas disponibles de la pagina www.tvmaze.com. Para que salga una busqueda de los generos el nombre debe estar en ingles</p><br>
+
+	<div id="contenedor">
+		<input type="text" id="Nombre" placeholder="Nombre">
+		<button onclick="EnviarGenero()" id="Boton">Genero</button>
+		<button onclick="EnviarNombre()" id="Boton">Nombre</button>
+	</div><br>
+	<div id ="cosas">
+		<p>No hay busquedas por el momento</p>
+	</div>
+
+</body>
+</html>
